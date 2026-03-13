@@ -1,0 +1,12 @@
+# Ignore macOS custom attributes
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore common lock files at the root level if you only want to track per-project ones
+node_modules/
+
+# Next.js / Next / general ignores
+.env
+.env.local
+.vercel

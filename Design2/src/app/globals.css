@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-background-soft: #f7f7f7;
+  --color-foreground: #1a1a1a;
+  --color-foreground-secondary: #6b6b6b;
+  --color-accent: #2f5d50;
+  --color-accent-light: #3a7566;
+  --color-accent-muted: #c8d8d4;
+  --color-border: #e8e8e8;
+  --color-surface: #ffffff;
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(47, 93, 80, 0.15);
+  color: #1a1a1a;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Soft premium shadow */
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-soft-hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Card lift animation */
+.card-lift {
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.4s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px) scale(1.01);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(47, 93, 80, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(47, 93, 80, 0.3);
+}
