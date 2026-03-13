@@ -11,7 +11,7 @@ A hyper-modern, neon-accented light theme with futuristic glassmorphism aestheti
 
 ![Design 1](./screenshots/design1.png)
 
-**Live Demo:** 
+**Live Demo:** [https://web-designs-sigma.vercel.app/](https://web-designs-sigma.vercel.app/)
 
 ---
 
@@ -20,7 +20,7 @@ A brutalist luxury layout featuring edge-to-edge cinematic project galleries and
 
 ![Design 2](./screenshots/design2.png)
 
-**Live Demo:** 
+**Live Demo:** [https://web-designs-85j3.vercel.app/](https://web-designs-85j3.vercel.app/)
 
 ---
 
@@ -29,6 +29,6 @@ An ultra-minimalist, pristine white/gray landing page designed to showcase high-
 
 ![Design 3](./screenshots/design3.png)
 
-**Live Demo:** 
+**Live Demo:** [https://web-design-apple.vercel.app/](https://web-design-apple.vercel.app/)
 
 ---
