@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+}
+
+@theme inline {
+  --color-background: #F7F7F5;
+  --color-foreground: #111111;
+  --color-accent: #3A5BFF;
+  --color-accent-light: #C7D2FF;
+  --color-muted: #888888;
+  --color-border: #E5E5E3;
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --spacing-section: 160px;
+  --spacing-component: 80px;
+  --spacing-inner: 32px;
+}
+
+* {
+  cursor: none !important;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.text-stroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px var(--color-foreground);
+}
+
+.text-stroke-thin {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px var(--color-foreground);
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.reveal-fade {
+  opacity: 0;
+}
+
+.split-line {
+  overflow: hidden;
+}
+
+.split-line-inner {
+  transform: translateY(100%);
+}
+
+.parallax-img {
+  will-change: transform;
+}
+
+/* Magnetic button */
+.magnetic-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform;
+}
+
+/* Link underline animation */
+.link-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.link-hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-foreground);
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.link-hover:hover::after {
+  width: 100%;
+}
+
+/* Masonry grid */
+.masonry-grid {
+  columns: 3;
+  column-gap: 24px;
+}
+
+.masonry-grid > * {
+  break-inside: avoid;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid {
+    columns: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .masonry-grid {
+    columns: 1;
+  }
+}
+
+/* Smooth image zoom */
+.img-zoom {
+  overflow: hidden;
+}
+
+.img-zoom img {
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.img-zoom:hover img {
+  transform: scale(1.05);
+}

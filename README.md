@@ -32,3 +32,10 @@ An ultra-minimalist, pristine white/gray landing page designed to showcase high-
 **Live Demo:** [https://web-design-apple.vercel.app/](https://web-design-apple.vercel.app/)
 
 ---
+
+### 4. [Design 4](./Design4): Creative Digital Studio
+A minimalist, typography-driven creative studio landing page featuring bold sans-serif type, generous whitespace, and an elegant monochromatic palette with subtle lavender accents.
+
+![Design 4](./screenshots/Design4.png)
+
+---
