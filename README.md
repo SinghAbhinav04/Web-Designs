@@ -1,6 +1,6 @@
 # Premium Web Designs Collection
 
-This repository contains a collection of four distinct, highly polished premium web designs built with Next.js, Tailwind CSS, and Framer Motion. 
+This repository contains a collection of five distinct, highly polished premium web designs built with Next.js, Tailwind CSS, and Framer Motion. 
 
 Each design features a completely different aesthetic targeted at specific high-end industries.
 
@@ -39,5 +39,14 @@ A minimalist, typography-driven creative studio landing page featuring bold sans
 ![Design 4](./screenshots/Design4.png)
 
 **Live Demo:** [https://web-design-4.vercel.app/](https://web-design-4.vercel.app/)
+
+---
+
+### 5. [Design 5](./Design5): Cinematic Dark Experience
+An award-worthy dark-theme digital experience featuring GSAP-powered parallax scrolling, Lenis smooth scroll, custom animated cursor, magnetic buttons, and immersive grayscale-to-color hover interactions across cinematic architectural imagery.
+
+![Design 5](./screenshots/Design5.png)
+
+**Live Demo:** *Coming soon*
 
 ---
