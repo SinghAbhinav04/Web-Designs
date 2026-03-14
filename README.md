@@ -47,6 +47,6 @@ An award-worthy dark-theme digital experience featuring GSAP-powered parallax sc
 
 ![Design 5](./screenshots/Design5.png)
 
-**Live Demo:** *Coming soon*
+**Live Demo:** [https://web-design-5-vert.vercel.app/](https://web-design-5-vert.vercel.app/)
 
 ---
